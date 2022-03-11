@@ -17,7 +17,7 @@ function App() {
         setListofnotes([...listofnotes, { title: title, content: content }]);
       })
       .catch(() => {
-        alert("aww it didnt worked");
+        alert("aww it didnt worked  man ");
       });
   };
   const updatenote = (id) => {
