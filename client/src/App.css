@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+
+  height: 100vh;
+  flex-direction: column;
+}
+.inputs {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+}
+.inputs button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(71, 185, 26);
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.inputs button:hover {
+  cursor: pointer;
+}
+.listofnotes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notescontainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.notes {
+  width: 500px;
+  height: 60px;
+  background-color: darkslategrey;
+  color: white;
+  font-family: cursive;
+  display: flex;
+}
+.notes h3 {
+  margin-left: 15px;
+}
+.notescontainer button {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  background-color: ghostwhite;
+}
