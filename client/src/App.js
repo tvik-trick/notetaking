@@ -13,7 +13,7 @@ function App() {
       content: content,
     })
       .then(() => {
-        alert("yey it worked");
+        alert("yey it worked man");
         setListofnotes([...listofnotes, { title: title, content: content }]);
       })
       .catch(() => {
